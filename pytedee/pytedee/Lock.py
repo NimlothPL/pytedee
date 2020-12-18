@@ -8,13 +8,17 @@ from enum import Enum
 
 
 '''class State(Enum):
-    Unknown = 0
+    Uncalibrated = 0
+    Calibrating = 1
     Unlocked = 2
-    Half Open = 3
+    SemiLocked = 3
     Unlocking = 4
     Locking = 5
     Locked = 6
-    Pull = 7'''
+    Pulled = 7
+    Pulling = 8
+    Unknown = 9
+    Updating = 18'''
 
     
 class Lock(object):
